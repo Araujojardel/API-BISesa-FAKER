@@ -1,0 +1,4 @@
+#Bilbiotecas necessarias
+sqlalchemy
+faker
+psycopg2-binary
