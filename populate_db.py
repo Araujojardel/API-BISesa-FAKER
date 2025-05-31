@@ -4,7 +4,7 @@ from datetime import date, timedelta, datetime
 from faker import Faker
 import random
 
-# Conexao com SQLite
+# Conexao com SQLite (Utilizei no SQLite, se for utilizar no postgre vai ser necessario alterar somente esse trecho de conexão)
 DATABASE_URL = 'sqlite:///banco_teste.db'
 
 Base = declarative_base()
